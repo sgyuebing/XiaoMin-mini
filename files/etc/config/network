@@ -23,6 +23,7 @@ config interface 'lan'
 config interface 'wan'
 	option device 'eth0.2'
 	option proto 'dhcp'
+	option metric '101'
 
 config interface 'wan6'
 	option device 'eth0.2'
