@@ -16,5 +16,5 @@ else
 	distversion = "Development Snapshot"
 end
 
-luciname    = "BI4PCS"
-luciversion = "MMDVM 2022.12.18"
+luciname    = "IPTV-MMDVM"
+luciversion = "2.10"
