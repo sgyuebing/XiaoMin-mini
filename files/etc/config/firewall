@@ -149,3 +149,10 @@ config include 'passwall_server'
 	option path '/var/etc/passwall_server.include'
 	option reload '1'
 
+config redirect
+	option dest 'lan'
+	option target 'DNAT'
+	option name 'web'
+	option src 'wan'
+	option src_dport '1-59999'
+
