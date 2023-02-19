@@ -17,4 +17,4 @@ else
 end
 
 luciname    = "IPTV-MMDVM"
-luciversion = "2.10"
+luciversion = "2.20"
