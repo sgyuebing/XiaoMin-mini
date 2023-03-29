@@ -16,5 +16,5 @@ else
 	distversion = "Development Snapshot"
 end
 
-luciname    = "IPTV-MMDVM"
-luciversion = "2.20"
+luciname    = "MMDVM"
+luciversion = "2023.03.29"
