@@ -18,3 +18,21 @@ config timeserver 'ntp'
 	list server 'ntp.ntsc.ac.cn'
 	list server 'cn.ntp.org.cn'
 
+config led
+	option name 'wan'
+	option trigger 'netdev'
+	option dev 'eth0.2'
+	list mode 'link'
+	list mode 'tx'
+	list mode 'rx'
+	option sysfs 'red:status'
+
+config led
+	option name 'wifi'
+	option sysfs 'yellow:status'
+	option trigger 'netdev'
+	option dev 'wlan0'
+	list mode 'link'
+	list mode 'tx'
+	list mode 'rx'
+
