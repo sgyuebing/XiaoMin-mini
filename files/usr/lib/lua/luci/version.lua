@@ -16,5 +16,5 @@ else
 	distversion = "Development Snapshot"
 end
 
-luciname    = "MMDVM"
+luciname    = "小米路由MMDVM数字热点"
 luciversion = "2023.08.02"
