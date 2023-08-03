@@ -6,11 +6,11 @@ config system
 	option timezone 'CST-8'
 	option zonename 'Asia/Shanghai'
 	option hostname 'XiaoMi'
-	option description '为发烧而生'
-	option notes '小米Mini路由器'
 	option log_proto 'udp'
 	option conloglevel '8'
 	option cronloglevel '5'
+	option description '小米Mini路由器MMDVM数字热点'
+	option notes '感谢BD7MQB老师的源码'
 
 config timeserver 'ntp'
 	list server 'ntp.tencent.com'
