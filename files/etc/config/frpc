@@ -7,14 +7,11 @@ config init
 	option group 'root'
 
 config conf 'common'
-	option server_addr '127.0.0.1'
-	option server_port '7000'
+	option token '12345'
 	option tls_enable 'false'
-        option login_fail_exit 'false'
+	option login_fail_exit 'false'
+	option server_port '7600'
+	option server_addr '127.0.0.1'
 
-config conf 'ssh'
-	option type 'tcp'
-	option local_ip '127.0.0.1'
-	option local_port '22'
-	option remote_port '6000'
+
 
